@@ -179,7 +179,8 @@ public sealed class GearsetterPlugin : IDalamudPlugin
         if (name.Contains('_', StringComparison.Ordinal) ||
             name.Contains("Eureka", StringComparison.OrdinalIgnoreCase) ||
             name.Contains("Bozja", StringComparison.OrdinalIgnoreCase) ||
-            name.Contains("OccultCrescent", StringComparison.OrdinalIgnoreCase))
+            name.Contains("OccultCresent", StringComparison.OrdinalIgnoreCase) ||
+            name.Contains("OC", StringComparison.OrdinalIgnoreCase))
             return null;
 
         return new GearsetData(_dataManager, _gearStatsCalculator, gearset, name);
