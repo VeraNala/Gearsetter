@@ -17,6 +17,7 @@ internal sealed class ItemList
         { 33648, 80 },
         { 41081, 90 },
         { 44410, 60 },
+        { 52439, 100 }, // Halone's Earring: EXP bonus through level 99
     }.AsReadOnly();
 
     public required EClassJob ClassJob { get; init; }
